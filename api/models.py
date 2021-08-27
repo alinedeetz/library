@@ -1,5 +1,4 @@
 from django.db import models
-from datetime import now
 
 class Books(models.Model):
     name = models.CharField(max_length=256)
