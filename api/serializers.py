@@ -6,4 +6,6 @@ class BookSerializer(serializers.ModelSerializer):
         model = Books
         fields = ('__all__')
 
-
+class ReadingListSerializer(serializers.ModelSerializer):
+    model = ReadingList
+    fields = ('__all__')
