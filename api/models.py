@@ -7,3 +7,6 @@ class Books(models.Model):
     
 class ReadingList(models.Model):
     book = models.CharField(max_length=256)
+
+class Movies(models.Model):
+    movie = models.CharField(max_length=256)
