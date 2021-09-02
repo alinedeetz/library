@@ -7,5 +7,7 @@ class BooksViewSet(viewsets.ModelViewSet):
     serializer_class = BookSerializer 
     queryset = Books.objects.all()
 
-
+class ReadingListViewSet(viewsets.ModelViewSet):
+    serializer_class = ReadingListSerializer
+    queryset = ReadingList.objects.all()
 
