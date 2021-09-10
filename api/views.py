@@ -11,3 +11,6 @@ class ReadingListViewSet(viewsets.ModelViewSet):
     serializer_class = ReadingListSerializer
     queryset = ReadingList.objects.all()
 
+class MoviesViewSet(viewsets.ModelViewSet):
+    serializer_class = MoviesSerializer
+    queryset = Movies.objects.all()
