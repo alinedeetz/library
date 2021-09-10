@@ -8,6 +8,7 @@ router = routers.DefaultRouter()
 
 router.register(r'books', BooksViewSet)
 router.register(r'reading', ReadingListViewSet)
+router.register(r'movies', MoviesViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
