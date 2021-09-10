@@ -9,3 +9,7 @@ class BookSerializer(serializers.ModelSerializer):
 class ReadingListSerializer(serializers.ModelSerializer):
     model = ReadingList
     fields = ('__all__')
+
+class MoviesSerializer(serializers.ModelSerializer):
+    model = Movies
+    fields = ('__all__')
